@@ -13,7 +13,7 @@ export const SORTING_VARIANTS: ISortingOption[] = [
   },
   {
     id: 3,
-    label: "Решённые",
+    label: "Выполненные",
     value: "resolved",
   },
 ];
