@@ -85,6 +85,14 @@
 }
 
 @media (max-width: 750px) {
+  .checkbox_wrapper {
+    align-items: baseline;
+  }
+
+  .task_checkbox_label {
+    height: 100%;
+  }
+
   .to-do_item_buttons {
     flex-direction: column;
   }
