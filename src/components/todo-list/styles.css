@@ -6,6 +6,7 @@
   gap: var(--indentation-l);
   padding: var(--indentation-s);
   overflow: auto;
+  height: 100%;
 }
 
 .to-do_list::-webkit-scrollbar {
