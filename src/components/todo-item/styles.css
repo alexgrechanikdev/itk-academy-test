@@ -5,7 +5,6 @@
   align-items: center;
   justify-content: space-between;
   gap: var(--indentation-l);
-  padding: var(--indentation-s);
   border-radius: var(--indentation-l);
   background-color: var(--default-text-color);
   color: black;
@@ -30,13 +29,15 @@
 
 .task_checkbox_label {
   width: 100%;
-  padding-left: 20px;
+  padding-left: 36px;
+  height: 100%;
+  padding-top: 14px;
 }
 
 .to-do_item_checkbox::before {
   content: "";
   position: absolute;
-  left: 0;
+  left: 16px;
   top: -50%;
   transform: translateY(-50%);
   width: 20px;
@@ -64,6 +65,7 @@
   display: flex;
   align-items: center;
   gap: var(--indentation-l);
+  padding: var(--indentation-s);
 }
 
 .to-do_item_button {

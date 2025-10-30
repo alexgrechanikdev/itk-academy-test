@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
   gap: var(--indentation-l);
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .form_wrapper {
