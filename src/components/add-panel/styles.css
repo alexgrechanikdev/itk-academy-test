@@ -1,0 +1,35 @@
+@import url("../../index.css");
+
+.add_panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--indentation-xs);
+  background-color: var(--default-text-color);
+  max-width: 260px;
+  border-radius: var(--indentation-xs);
+  padding-left: var(--indentation-s);
+}
+
+.add_panel_input {
+  border: none;
+  outline: transparent;
+  height: var(--indentation-xl);
+}
+
+.add_panel_button {
+  padding: var(--indentation-s);
+  border-radius: var(--indentation-xs);
+}
+
+@media (max-width: 750px) {
+  .add_panel {
+    width: 100%;
+    max-width: none;
+    justify-content: space-between;
+  }
+
+  .add_panel_input {
+    width: 100%;
+  }
+}

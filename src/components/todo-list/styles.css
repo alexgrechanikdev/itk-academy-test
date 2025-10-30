@@ -1,0 +1,21 @@
+@import url("../../index.css");
+
+.to-do_list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--indentation-l);
+  padding: var(--indentation-s);
+  overflow: auto;
+}
+
+.to-do_list::-webkit-scrollbar {
+  border-radius: var(--indentation-l);
+  width: 10px;
+  height: 10px;
+  background-color: var(--scrollbar-background);
+}
+
+.to-do_list::-webkit-scrollbar-thumb {
+  border-radius: var(--indentation-l);
+  background-color: var(--secondary);
+}

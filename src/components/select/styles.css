@@ -1,0 +1,21 @@
+@import url("../../index.css");
+
+.select_sort {
+  height: var(--indentation-xl);
+  max-width: 120px;
+  width: 100%;
+  font-size: var(--font-size-l);
+  border-radius: var(--indentation-xs);
+  outline: transparent;
+  border: none;
+}
+
+.select_sort_option:checked {
+  background-color: var(--secondary);
+}
+
+@media (max-width: 750px) {
+  .select_sort {
+    max-width: none;
+  }
+}

@@ -1,0 +1,53 @@
+:root {
+  --indentation-xs: 4px;
+  --indentation-s: 8px;
+  --indentation-l: 16px;
+  --indentation-xl: 32px;
+  --default-text-color: #fff;
+  --primary: #2900d6;
+  --secondary: #e55c8a;
+  --secondary-active: #b92456;
+  --font-size-l: 14px;
+  --disabled-background: #a9a6a7;
+  --disabled-color: #595959;
+  --complete: #50c76f;
+  --scrollbar-background: #f9f9fd;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--default-text-color);
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  border: none;
+  outline: transparent;
+  font-size: var(--font-size-l);
+  cursor: pointer;
+  color: var(--default-text-color);
+  background-color: var(--secondary);
+}
+
+button:active {
+  background-color: var(--secondary-active);
+}
+
+button:disabled {
+  background-color: var(--disabled-background);
+  color: var(--disabled-color);
+  cursor: not-allowed;
+}
+
+button:disabled:active {
+  background-color: var(--disabled-background);
+}
