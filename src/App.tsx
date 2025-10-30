@@ -37,9 +37,11 @@ function App() {
         <div className="container">
           <div className="wrapper">
             <h2 className="title">My TO DO</h2>
-            <div className="form_wrapper">
-              <AddPanel />
-              <Select options={SORTING_VARIANTS} />
+            <div className="panel_wrapper">
+              <div className="form_wrapper">
+                <AddPanel />
+                <Select options={SORTING_VARIANTS} />
+              </div>
               <p>
                 {`${getDeclension(
                   noCompleteTasks,
