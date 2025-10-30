@@ -85,6 +85,7 @@
 }
 
 @media (max-width: 750px) {
+  .to-do_item,
   .checkbox_wrapper {
     align-items: baseline;
   }

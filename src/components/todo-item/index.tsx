@@ -50,11 +50,7 @@ export const ToDoItem: FC<IToDoItem> = ({ task }) => {
   }, [allTasks, filterValue, noCompleteTasks]);
 
   return (
-    <div
-      className={`to-do_item${
-        complete ? " task_complete" : " checkbox_wrapper_width"
-      }`}
-    >
+    <div className={`to-do_item${complete ? " task_complete" : ""}`}>
       <div
         className={`checkbox_wrapper${
           showEdit ? "" : " checkbox_wrapper_width"
